@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: #EDA415;
+}
+.main{
+   
+}
+
+.wrapper{
+    
+}
+
+.title {
+    text-align: center;
+    border: 20px solid blueviolet;
+    background: #F4DD6A;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: purple 7px 7px;
+   
+}
+
+.bestOf{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+#rounds{
+    margin-left:20px;
+    margin-right:20px;
+    height: 50px;
+    width: 130px;
+    background-color: #F4DD6A;
+    border-color: bisque;
+    border-width: 3px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: black;
+}
+
