@@ -41,4 +41,36 @@ body {
     font-weight: bolder;
     color: black;
 }
+#rounds:hover{
+    border-color: white;
+
+}
+
+h2, h3{
+    text-align: center;
+}
+
+.playArea {
+    background-color:#F4DD6A;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom:20px;
+    border: 5px solid blueviolet;
+}
+.picks{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pics{
+    height: 180px;
+    width: 180px;
+    border: 2px solid orange;
+}
+
+.pics:hover{
+    border: 2px solid white;
+    
+}
 

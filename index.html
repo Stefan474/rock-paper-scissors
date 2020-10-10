@@ -11,10 +11,20 @@
     <main class="wrapper">
     <h1 class="title"> Rock, paper, scissors </h1>
     <form class="bestOf">
-        <button id="rounds" value="3">Best of 3</button>
-        <button id="rounds" value="5">Best of 5</button>
-        <button id="rounds" value="7">Best of 7</button>
+        <button id="rounds" onclick="r3()">Best of 3</button>
+        <button id="rounds" >Best of 5</button>
+        <button id="rounds" >Best of 7</button>
     </form>
+    <div class="playArea">
+        <h2>What's your move?</h2>
+        <div class="picks">
+            <img class="pics" id="rock" src="https://www.networthq.com/wp-content/uploads/2015/07/Dwayne_Johnson-net-worth-how-rich-is-the-rock-how-much-money-is-the-rock-making-300x300.jpg">
+            <img class="pics" id="paper" src="https://images-na.ssl-images-amazon.com/images/I/41PJrUiZTBL._SY300_.jpg">
+            <img class="pics" id="scissors" src="https://dialls2020.eu/wp-content/uploads/2019/03/what-the-scissors-did-300x300.jpg">
+        </div>
+        <h2>Score</h2>
+        <h3 id="scoreDisplay"></h3>
+    </div>
     </main>
     <script src="script.js"></script>
 </body>
